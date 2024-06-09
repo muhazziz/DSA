@@ -1,4 +1,4 @@
-###Queue Implementation in C++
+Queue Implementation in C++
 
 This project contains two implementations of a queue using C++: a dynamic queue and a static queue. The code demonstrates basic queue operations such as adding elements to the queue and removing elements from the queue.
 
