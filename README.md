@@ -6,6 +6,7 @@ Files
 
 - `queueDynamic.cpp`: This file contains an implementation where the user can dynamically add animal names to the queue through console input.
 - `queueStatic.cpp`: This file contains a static implementation where a predefined set of animal names is added to the queue and then printed.
+- `queueAnimalInspection.cpp`: This file contains an implementation that manages a queue for animal inspection. Users can add animals with detailed information to the queue, remove them after inspection, view the next animal to be inspected, and display all animals in the queue.
 
 Description
 
@@ -35,6 +36,22 @@ Usage:
 1. Run the program.
 2. The program will display the predefined names in the queue and then terminate.
 
+Animal Inspection Queue (`queueAnimalInspection.cpp`)
+
+This program manages a queue for animal inspections. Users can add animals with detailed information (name, type, age, owner name, and condition) to the queue, remove them after inspection, view the next animal to be inspected, and display all animals in the queue.
+
+Features:
+
+- Add animals with detailed information to the queue.
+- Remove animals from the queue after inspection.
+- View the next animal to be inspected.
+- Display all animals in the queue.
+
+Usage:
+1. Run the program.
+2. Use the menu to add animals, remove them after inspection, view the next animal, or display all animals.
+3. The program continues to prompt for actions until the user chooses to exit.
+
 Compilation and Execution
 
 Dynamic Queue
@@ -51,6 +68,15 @@ To compile and run `queueStatic.cpp`:
 ```sh
 g++ -o queueStatic queueStatic.cpp
 ./queueStatic
+```
+
+Animal Inspection Queue
+
+To compile and run `queueAnimalInspection.cpp`:
+```sh
+Salin kode
+g++ -o queueAnimalInspection queueAnimalInspection.cpp
+./queueAnimalInspection
 ```
 
 Example Output
@@ -72,4 +98,40 @@ Hewan-hewan dalam antrian: Cat Dog
 Static Queue
 ```
 Queue: Cat, Dog, Fish, Bear, Bird,
+```
+
+Animal Inspection Queue
+```
+Menu:
+1. Tambah hewan untuk pemeriksaan
+2. Hapus hewan setelah pemeriksaan
+3. Tampilkan hewan yang akan diperiksa selanjutnya
+4. Tampilkan semua hewan dalam antrian
+5. Keluar
+Pilih opsi: 1
+Masukkan nama hewan: Kucing
+Masukkan jenis hewan: Kucing
+Masukkan umur hewan: 3
+Masukkan nama pemilik: Budi
+Masukkan kondisi hewan: Sehat
+Hewan telah ditambahkan ke antrian pemeriksaan!
+
+Menu:
+1. Tambah hewan untuk pemeriksaan
+2. Hapus hewan setelah pemeriksaan
+3. Tampilkan hewan yang akan diperiksa selanjutnya
+4. Tampilkan semua hewan dalam antrian
+5. Keluar
+Pilih opsi: 4
+Semua hewan dalam antrian pemeriksaan:
+1. Nama: Kucing, Jenis: Kucing, Umur: 3 tahun, Pemilik: Budi, Kondisi: Sehat
+
+Menu:
+1. Tambah hewan untuk pemeriksaan
+2. Hapus hewan setelah pemeriksaan
+3. Tampilkan hewan yang akan diperiksa selanjutnya
+4. Tampilkan semua hewan dalam antrian
+5. Keluar
+Pilih opsi: 5
+Keluar dari program.
 ```
