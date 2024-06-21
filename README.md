@@ -1,4 +1,4 @@
-Queue Implementation in C++
+*Queue Implementation in C++*
 
 This project contains two implementations of a queue using C++: a dynamic queue and a static queue. The code demonstrates basic queue operations such as adding elements to the queue and removing elements from the queue.
 
@@ -7,6 +7,7 @@ Files
 - `queueDynamic.cpp`: This file contains an implementation where the user can dynamically add animal names to the queue through console input.
 - `queueStatic.cpp`: This file contains a static implementation where a predefined set of animal names is added to the queue and then printed.
 - `queueAnimalInspection.cpp`: This file contains an implementation that manages a queue for animal inspection. Users can add animals with detailed information to the queue, remove them after inspection, view the next animal to be inspected, and display all animals in the queue.
+
 
 Description
 
@@ -52,6 +53,7 @@ Usage:
 2. Use the menu to add animals, remove them after inspection, view the next animal, or display all animals.
 3. The program continues to prompt for actions until the user chooses to exit.
 
+
 Compilation and Execution
 
 Dynamic Queue
@@ -78,6 +80,7 @@ Salin kode
 g++ -o queueAnimalInspection queueAnimalInspection.cpp
 ./queueAnimalInspection
 ```
+
 
 Example Output
 
