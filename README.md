@@ -109,7 +109,7 @@ Menu:
 4. Tampilkan semua hewan dalam antrian
 5. Keluar
 Pilih opsi: 1
-Masukkan nama hewan: Kucing
+Masukkan nama hewan: Zoe
 Masukkan jenis hewan: Kucing
 Masukkan umur hewan: 3
 Masukkan nama pemilik: Budi
@@ -124,7 +124,7 @@ Menu:
 5. Keluar
 Pilih opsi: 4
 Semua hewan dalam antrian pemeriksaan:
-1. Nama: Kucing, Jenis: Kucing, Umur: 3 tahun, Pemilik: Budi, Kondisi: Sehat
+1. Nama: Zoe, Jenis: Kucing, Umur: 3 tahun, Pemilik: Budi, Kondisi: Sehat
 
 Menu:
 1. Tambah hewan untuk pemeriksaan
