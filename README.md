@@ -8,7 +8,6 @@ Files
 - `queueStatic.cpp`: This file contains a static implementation where a predefined set of animal names is added to the queue and then printed.
 - `queueAnimalInspection.cpp`: This file contains an implementation that manages a queue for animal inspection. Users can add animals with detailed information to the queue, remove them after inspection, view the next animal to be inspected, and display all animals in the queue.
 
-
 Description
 
 Dynamic Queue (`queueDynamic.cpp`)
@@ -53,7 +52,6 @@ Usage:
 2. Use the menu to add animals, remove them after inspection, view the next animal, or display all animals.
 3. The program continues to prompt for actions until the user chooses to exit.
 
-
 Compilation and Execution
 
 Dynamic Queue
@@ -80,8 +78,7 @@ Salin kode
 g++ -o queueAnimalInspection queueAnimalInspection.cpp
 ./queueAnimalInspection
 ```
-
-
+]
 Example Output
 
 Dynamic Queue
