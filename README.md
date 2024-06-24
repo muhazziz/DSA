@@ -74,11 +74,10 @@ Animal Inspection Queue
 
 To compile and run `queueAnimalInspection.cpp`:
 ```sh
-Salin kode
 g++ -o queueAnimalInspection queueAnimalInspection.cpp
 ./queueAnimalInspection
 ```
-]
+
 Example Output
 
 Dynamic Queue
